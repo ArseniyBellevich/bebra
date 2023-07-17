@@ -17,4 +17,6 @@ function reset() {
 }
 function pause(){
     clearInterval(timerId);
+     timer = stop;
+    counter.innerText = timer;
 }
